@@ -1,0 +1,45 @@
+.header {
+    color: blue;
+    
+}
+.header_logo {
+    text-align: left;
+    padding-left: 180px;
+    padding-top: 2%;
+    width: 320px;
+    
+    
+   
+
+}
+.header_nav{
+    text-align: right;
+    padding-right: 200px;
+    margin-top: -70px;
+    
+}
+.header_btn_a{
+    color: #e3583b;
+    font-size: 20px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    position: relative;
+    top:-5px;
+    left: 10px;
+}
+.Menu {
+    position: relative;
+    width: 100px;
+    left: 10px;
+    top:-30px;
+    
+    
+}
+
+   
+	
+	

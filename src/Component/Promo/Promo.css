@@ -1,0 +1,45 @@
+.Promo {
+    margin-bottom: auto;
+}
+.Promo_text {
+    text-align: right;
+    font-size: 105px;
+    font-family: 'BebasNeue',Arial,sans-serif;
+    font-weight: 700;
+    margin-right: 200px;
+    
+    
+}
+.p {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 105px;
+    font-family: 'BebasNeue',Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    
+    
+    
+}
+.Promo_text2 {
+    text-align: center;
+    color: #030808;
+    font-size: 32px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.Images {
+    
+    position: relative;
+    right: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-style: solid;
+    column-fill: balance;
+}
