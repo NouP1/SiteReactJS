@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1182b3c0.css",
-    "main.js": "/static/js/main.d29545d1.js",
-    "index.html": "/index.html",
-    "static/media/Coursor.svg": "/static/media/Coursor.6f50100545ddbd3bb97c9593f1a2c178.svg",
-    "main.1182b3c0.css.map": "/static/css/main.1182b3c0.css.map",
-    "main.d29545d1.js.map": "/static/js/main.d29545d1.js.map"
+    "main.css": "/Vremyarosta/static/css/main.1182b3c0.css",
+    "main.js": "/Vremyarosta/static/js/main.66df359f.js",
+    "index.html": "/Vremyarosta/index.html",
+    "static/media/Coursor.svg": "/Vremyarosta/static/media/Coursor.6f50100545ddbd3bb97c9593f1a2c178.svg",
+    "main.1182b3c0.css.map": "/Vremyarosta/static/css/main.1182b3c0.css.map",
+    "main.66df359f.js.map": "/Vremyarosta/static/js/main.66df359f.js.map"
   },
   "entrypoints": [
     "static/css/main.1182b3c0.css",
-    "static/js/main.d29545d1.js"
+    "static/js/main.66df359f.js"
   ]
 }
