@@ -1,6 +1,8 @@
 import Header from "./Component/header/Header.jsx";
 import './App.css'
 import Promo from "./Component/Promo/Promo.jsx";
+import Usn from "./Component/USN/Usn.jsx";
+import Graph from "./Component/Graph/Graph.jsx";
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
     <div className="App">
     <Header></Header>
     <Promo></Promo>
+    <Usn></Usn>
+    <Graph></Graph>
     </div>
   );
 }

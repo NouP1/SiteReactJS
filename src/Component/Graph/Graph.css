@@ -1,0 +1,13 @@
+.Table{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    background-color: white;
+    color: black;
+    
+    border-radius: 30px;
+    padding: 600px;
+    padding-right: 510px;
+    padding-top:0px;
+}

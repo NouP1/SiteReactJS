@@ -1,0 +1,64 @@
+.USN_{
+    padding-top: 90px;
+    padding-left: 400px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 550px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding-bottom: 100px;
+    font-family:'Inter',Arial,sans-serif;
+    
+    
+    
+
+}
+span.U {
+    position: relative;
+    top:50px;
+    right: 375px;
+    
+    
+}
+.Block_USN {
+    margin-right: 300px;
+    
+    padding-top: 150px;
+    text-align: left;
+    color: #e3583b;
+    font-size: 24px;
+    font-family: 'Inter',Arial,sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+span.Gray {
+    color: #b3b3b3;
+    font-size: 20px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 500;
+}
+.btn_UNS {
+    margin-top: 80px;
+    background-color: #e3583b;
+    color: white;
+    margin-left: -100px;
+    margin-right: 300px;
+    padding-left: 23px;
+    padding-right:23px; 
+    padding-top: 23px;
+    padding-bottom: 23px; 
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Inter',Arial,sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+span.num {
+    position: relative;
+    right: 90px;
+    top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
