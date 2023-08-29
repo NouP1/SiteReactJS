@@ -1,0 +1,114 @@
+.NGK {
+    display: inline;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    color: #6c6c6c;
+    font-size: 20px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.str {
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    top: 250px;
+    color: #030808;
+    font-size: 40px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: 1.10;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.Block_1_ {
+    position: relative;
+    left: 800px;
+    top: 300px;
+    
+    border-radius: 30px;
+    background-color: #e3583b;
+    padding-top: 135px;
+    padding-left:20px;
+    padding-bottom: 200px;
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: 1.10;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width: 374px;
+    height: 423px;
+    margin-left: 100px;
+    
+    
+}
+.Block_2_ {
+    position: relative;
+    left: 380px;
+    bottom: 270px;
+    border-radius: 24px;
+    background-color: #0727f5;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-bottom: 291px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    width: 374px;
+    height: 423px;
+    
+    
+}
+span.bl {
+    
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin: 1px;
+}
+span.bl1 {
+    position: relative;
+    bottom: 100px;
+    margin: 30px;
+}
+span.bl2 {
+    position: relative;
+    top:100px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Inter',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    
+}
+span.bl1_1 {
+    margin:40px;
+
+}
