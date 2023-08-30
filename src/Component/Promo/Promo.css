@@ -109,7 +109,7 @@
     font-family: 'Inter',Arial,sans-serif;
     line-height: 1.10;
     font-weight: 600;
-    
+    margin-bottom: 2px;
     
     
 }
@@ -141,14 +141,14 @@
     margin-left: 965px;
     border-radius: 30px;
     background-color: #0727f5;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 291px;
     color: #f5f5f5;
     font-size: 40px;
     font-family: 'Inter',Arial,sans-serif;
     line-height: 1.10;
     font-weight: 600;
-    width: 400px;
+    width: 350px;
     height: 435px;
 }
 span.T1{
@@ -160,7 +160,7 @@ span.T1{
 }
 img.One {
     position: relative;
-    bottom:70px;
+    bottom:100px;
     left: 40px;
     width: 300px;
 }
