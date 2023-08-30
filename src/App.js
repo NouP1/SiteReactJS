@@ -4,6 +4,7 @@ import Promo from "./Component/Promo/Promo.jsx";
 import Usn from "./Component/USN/Usn.jsx";
 import Graph from "./Component/Graph/Graph.jsx";
 import Ngk from "./Component/Ngk/Ngk.jsx";
+import SideBar from "./Component/SideBar/SideBar.jsx";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <Usn></Usn>
     <Graph></Graph>
     <Ngk></Ngk>
-    <div>Test</div>
+    <SideBar></SideBar>
     </div>
   );
 }
