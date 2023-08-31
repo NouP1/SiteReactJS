@@ -1,3 +1,4 @@
+import {Routes, Route} from 'react-router-dom'
 import Header from "./Component/header/Header.jsx";
 import './App.css'
 import Promo from "./Component/Promo/Promo.jsx";
@@ -12,12 +13,15 @@ function App() {
 
   return (
     <div className="App">
-    <Header></Header>
-    <Promo></Promo>
-    <Usn></Usn>
-    <Graph></Graph>
-    <Ngk></Ngk>
-    <SideBar></SideBar>
+      <Routes>
+        <Route path='/Vremyarosta' element={<Header/>}/>
+      </Routes>
+        <Promo></Promo>
+        <Usn></Usn>
+        <Graph></Graph>
+        <Ngk></Ngk>
+        <SideBar></SideBar>
+      
     </div>
   );
 }
