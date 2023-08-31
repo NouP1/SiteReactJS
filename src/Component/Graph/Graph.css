@@ -7,8 +7,13 @@
     border-radius: 30PX;
     padding: 20px;
     margin: 150px;
-    
+    opacity: 1;
 }
+
+.Table.element-show {
+    opacity: 1;
+}
+
 span.string_Table {
     position:relative;
     margin: 0 80px;
@@ -29,16 +34,16 @@ span.orange {
     position: relative;
     bottom: 180px;
     right: 220px;
-    border-bottom: 3px solid #979797;
+    border-bottom: 2px solid #979797;
     transform: rotate(90deg);
     width: 380px;
  }
 
  .graph_wrapper_lineh {
     position: relative;
-    bottom: 25px;
+    bottom: 55px;
     right: 60px;
-    border-bottom: 3px solid #979797;
+    border-bottom: 2px solid #979797;
     width: 490px;
  }
  
@@ -48,6 +53,8 @@ span.orange {
     border-bottom: 3px solid #97979757;
     width: 480px;
  }
+
+ /*------------------------Columns---------------------*/
  
  .Column {
     position: relative;
@@ -65,11 +72,16 @@ span.orange {
     font-size: 24px;
     font-family: 'Inter',Arial,sans-serif;
     line-height: NaN;
-    font-weight: 600;
-    
-    
-    
+    font-weight: 600;  
  }
+
+.Columns1 {
+    position: absolute;
+    transform: translateY(-373px);
+    visibility: hidden;
+}
+
+
  span.persent{
     color: #ffffff;
     background-color: #e3583b;
@@ -107,6 +119,7 @@ span.orange {
     top:240px;
     margin-top:1px;
     border-radius: 20px;
+    transition: top .7s, height .7s;
     
  }
  span.persent2 {
@@ -122,6 +135,7 @@ span.orange {
     top:200px;
     margin-top:1px;
     border-radius: 20px;
+    transition: top .7s, height .7s;
 }
 span.persent3 {
     text-align: center;
@@ -136,6 +150,7 @@ span.persent3 {
     top:80px;
     margin-top:1px;
     border-radius: 20px;
+    transition: top .7s, height .7s;
     
 }
 .Years {
@@ -218,6 +233,10 @@ button.btn_gr:focus {
 button.btn_gr1:focus {
     color: #8f8f8f;
     
+}
+
+.buttons {
+    margin: 20px 0;
 }
 
 
