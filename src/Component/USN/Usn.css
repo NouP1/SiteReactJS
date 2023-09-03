@@ -21,6 +21,10 @@ span.U {
     
     
 }
+.activeNum {
+animation:fadeRight 1s;
+animation-delay: 2s;
+}
 .Block_USN {
     margin-right: 300px;
     

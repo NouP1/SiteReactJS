@@ -1,12 +1,24 @@
 import './../USN/Usn.css' 
-
+import {useInView} from 'react-intersection-observer'
+import React from 'react'
  
 function Usn () {
+    const [active,setActive] = React.useState(false)
+    const {ref,inView}=useInView({
+        threshold:0
+    
+    });
+    React.useEffect (()=> {
+        if (inView) {
+            setActive(true);
+        }
+
+    }, [inView]);
     return <usn>
                 <div class="usn">
-                <div class="USN_"> Что такое УСН <span className='U'>и для кого подходит</span> 
+                <div ref = {ref} class={`USN_ ${active ? 'activeL': ''}`}> Что такое УСН <span className='U'>и для кого подходит</span> 
                     <div className='Block_USN'> 
-                    <span class='num'>01</span>
+                    <span className='num'>01</span>
                     <br/>Упрощённая система налогообложения (УСН) подходит для ИП и
                     <br/> ООО,у которых годовой доход не превышает 150 млн рублей*,а 
                     <br/> сотрудников не больше 100. <span className='Gray'>* без учета ежегодной индексации</span> <p></p>

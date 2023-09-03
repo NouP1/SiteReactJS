@@ -109,7 +109,6 @@ span.orange {
  span.persent1 {
     text-align: center;
     display:inline-block;
-    width: 110px;
     color: #ffffff;
     background-color: #e3583b;
     width: 110px;
@@ -120,6 +119,8 @@ span.orange {
     margin-top:1px;
     border-radius: 20px;
     transition: top .7s, height .7s;
+    opacity: 0;
+    
     
  }
  span.persent2 {
@@ -136,12 +137,14 @@ span.orange {
     margin-top:1px;
     border-radius: 20px;
     transition: top .7s, height .7s;
+    opacity: 0;
+    
 }
 span.persent3 {
     text-align: center;
     display:inline-block;
     width: 110px;
-    color: #ffffff;
+    color: #efecec;
     background-color: #e3583b;
     width: 110px;
     height: 220px;
@@ -151,6 +154,8 @@ span.persent3 {
     margin-top:1px;
     border-radius: 20px;
     transition: top .7s, height .7s;
+    opacity: 0;
+    
     
 }
 .Years {
@@ -240,6 +245,68 @@ button.btn_gr1:focus {
 }
 
 
-/*----------------------------------------------*/
-
-
+/*анимация наполнения колонок---------------------------------------------*/
+.activeUP1 {
+animation: ColumnUp1 1s;
+animation-fill-mode: both;
+}
+.activeUP2 {
+    animation: ColumnUp2 1s;
+    animation-fill-mode: both;
+}
+.activeUP3 {
+    animation: ColumnUp3 1s;
+    animation-fill-mode: both;
+}
+@keyframes ColumnUp1 {
+    0% {
+        
+    
+    height: 0;
+    top:300px;
+    opacity: 0;
+    }
+    100%{
+        
+       height:60px;
+       top:240px;
+       opacity: 1;
+       
+        
+    }
+}
+@keyframes ColumnUp2 {
+    0% {
+        
+    
+    height: 0;
+    top:300px;
+    opacity: 0;
+    
+    }
+    100%{
+        
+       height:100px;
+       top:200px;
+       opacity:1;
+       
+        
+    }
+}
+@keyframes ColumnUp3 {
+    0% {
+        
+    
+    height: 0;
+    top:300px;
+    opacity: 0;
+    }
+    100%{
+        
+       height:220px;
+       top:80px;
+       opacity: 1;
+       
+        
+    }
+}

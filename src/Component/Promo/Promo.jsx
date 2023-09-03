@@ -4,11 +4,23 @@ import Perm from './../../img/Perm.png'
 import Air from './../../img/Air.png'
 import Crsr from './../../img/Coursor.svg'
 import One from './../../img/One.png'
+import {useInView} from 'react-intersection-observer'
+import React from 'react'
+function Promo () { 
+    const [active,setActive] = React.useState(false)
+    const {ref,inView}=useInView({
+    
+    });
+    React.useEffect (()=> {
+        if (inView) {
+            setActive(true);
+        }
 
-function Promo  () {
+    }, [inView]);
+  
     return  <promo className='Promo'>
                 <div className='container'>
-                    <div className='Promo_text'>ПЕРЕХОДИ 
+                    <div className='Promo_text'><span className='pt'>ПЕРЕХОДИ </span>
                     <img className='crsr' src={Crsr} alt ="Crsr" ></img>
                     </div>
                     <div className='p'>НА НОВЫЙ УРОВЕНЬ</div>
@@ -24,13 +36,13 @@ function Promo  () {
                                 <div className='Login_btn'>
                                     <a href="https://service.nalog.ru/gosreg/#ip" className='btn'>Зарегистрировать бизнес</a>
                                 </div>
-                                <div className='BLock_1'>Зарегистрируй бизнес <br/>в Пермском крае <br/> и получи льготу
+                                <div ref={ref} className={`BLock_1 ${active ? 'activeL': ''}`}>Зарегистрируй бизнес <br/>в Пермском крае <br/> и получи льготу
                                 <a href='https://service.nalog.ru/gosreg/#ip' className='btn_'>Зарегистрировать бизнес</a>
                                 </div>
-                                    <div className='Block_2'>  <span className='T1'>ВМЕСТО 6% НА УСН </span>
+                                    <div ref={ref}  className={`Block_2 ${active ? 'activeR': ''}`}>  <span className='T1'>ВМЕСТО 6% НА УСН </span>
                                         <img className='One' src={One} alt='One'></img>
                                      </div>
- 
+                                    
                 </div>
 
     </promo>

@@ -1,27 +1,25 @@
 import { useState } from 'react';
 import './../Graph/Graph.css'
+import {useInView} from 'react-intersection-observer'
+import React from 'react'
  function Graph () {
     const [show,setshow] = useState(false)
 
-    let element = document.getElementById('Columns1');
+    let element = document.getElementById('Columns');
     if (element) {
     element.style.visibility = show ? 'visible' : 'hidden';
     } 
+    const [active,setActive] = React.useState(false)
+    const {ref,inView}=useInView({
+        threshold:1
+    
+    });
+    React.useEffect (()=> {
+        if (inView) {
+            setActive(true);
+        }
 
-
-    /*function onEntry(entry) {
-        entry.forEach(change => {
-          if (change.isIntersecting) {
-            change.target.classList.add('element-show');
-          }
-        });
-      }
-      let options = { threshold: [0.5] };
-      let observer = new IntersectionObserver(onEntry, options);
-      let elements = document.querySelectorAll('.Table');
-      for (let elm of elements) {
-        observer.observe(elm);
-      }*/
+    }, [inView]);
 
 
     return <graph>
@@ -39,9 +37,12 @@ import './../Graph/Graph.css'
                         </div>
                         
                             <div className='Columns'>
-                                <div className='Column'> <span className='persent_1'> 6% </span><span className={show ?'persent1_2':'persent1'}>1% </span> </div>
-                                <div className='Column'> <span className='persent_1'> 6% </span><span className={show ? "persent2_1":'persent2'}>2% </span> </div>
-                                <div className='Column'> <span className='p_'> 6% </span><span className="persent3">4% </span> </div>
+                                <div className='Column'> <span className='persent_1'> 6% </span>
+                                <span
+                                 ref={ref} className= {`persent1 ${active ? 'activeUP1': ''}`}{...show ?'persent1_2':'persent1'}>1% </span> 
+                                </div>
+                                <div className='Column'> <span className='persent_1'> 6% </span><span className={`persent2 ${active ? 'activeUP2': ''}`}{...show ? "persent2_1":'persent2'}>2% </span> </div>
+                                <div className='Column'> <span className='p_'> 6% </span><span className={`persent3 ${active ? 'activeUP3': ''}`}>4% </span> </div>
                             </div>
                             <div className='Columns1' id='Columns1'>  
                                 <div className='Column'> <span className='persent_1'> 15% </span><span className={show ?'persent1_2':'persent1'}>5% </span> </div>
