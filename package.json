@@ -1,7 +1,7 @@
 {
   "name": "date-app",
   "version": "0.1.0",
-  "homepage": "http://NouP1.github.io/Vremyarosta",
+  "homepage": "https://noup1.github.io/Vremyarosta",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
