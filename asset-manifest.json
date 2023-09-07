@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vremyarosta/static/css/main.524528fa.css",
-    "main.js": "/Vremyarosta/static/js/main.f28e8144.js",
+    "main.css": "/Vremyarosta/static/css/main.a978ce64.css",
+    "main.js": "/Vremyarosta/static/js/main.f4b06055.js",
     "static/media/BebasNeue-Regular.ttf": "/Vremyarosta/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "index.html": "/Vremyarosta/index.html",
     "static/media/Coursor.svg": "/Vremyarosta/static/media/Coursor.6f50100545ddbd3bb97c9593f1a2c178.svg",
-    "main.524528fa.css.map": "/Vremyarosta/static/css/main.524528fa.css.map",
-    "main.f28e8144.js.map": "/Vremyarosta/static/js/main.f28e8144.js.map"
+    "main.a978ce64.css.map": "/Vremyarosta/static/css/main.a978ce64.css.map",
+    "main.f4b06055.js.map": "/Vremyarosta/static/js/main.f4b06055.js.map"
   },
   "entrypoints": [
-    "static/css/main.524528fa.css",
-    "static/js/main.f28e8144.js"
+    "static/css/main.a978ce64.css",
+    "static/js/main.f4b06055.js"
   ]
 }
